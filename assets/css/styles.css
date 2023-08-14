@@ -385,7 +385,7 @@ img {
 }
 
 .button--link:hover {
-  background-color: 50%;
+  background-color: transparent;
   color: var(--first-color-alt);
 }
 
@@ -395,6 +395,8 @@ img {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
+}
+.colored-link {color: blue; /* Change the color as desired */
 }
 
 .about__description {
