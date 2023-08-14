@@ -385,7 +385,7 @@ img {
 }
 
 .button--link:hover {
-  background-color: transparent;
+  background-color: 50%;
   color: var(--first-color-alt);
 }
 
