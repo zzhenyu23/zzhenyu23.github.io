@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        
+        <!--==================== SWIPER CSS====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--==================== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Zhenyu Zhao's Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Zhenyu</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+
+                        
+                        <li class="nav__item">
+                            <a href="#Experience" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Publication and services
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#news" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> News
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contactme
+                            </a>
+                        </li>
+
+                    </ul>
+                    
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/zzhao-temple/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+    
+                            <a href="https://scholar.google.com/citations?user=-1hE2IoAAAAJ&hl=en&oi=ao/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-google"></i>                           
+                            </a>
+    
+
+                        </div>
+    
+                        <div class="home__img">
+                            <svg width="200" height="200">
+                                <!-- Create a circular mask using the <circle> element -->
+                                <mask id="roundMask">
+                                  <circle cx="100" cy="100" r="100" fill="white" />
+                                </mask>
+                                
+                                <!-- Apply the mask to an image using the <image> element -->
+                                <image x="0" y="0" width="200" height="200" xlink:href="assets/img/perfil.png" mask="url(#roundMask)" />
+                              </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Zhenyu Zhao</h1>
+                            <h3 class="home__subtitle">PhD student</h3>
+                            <p class="home__description">A dedicated PhD student with a fervent enthusiasm for research, 
+                                with deep-seated love for exploring new horizons through travel, 
+                                and a harmonious soul that finds expression as both a pianist and a trumpeter.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">As a third-year PhD student at Temple University advised by <a href="https://gliangdu.github.io/">Prof Liang Du</a>  and an intern at PJM Interconnection, my academic pursuits revolve around harnessing quantitative data analysis techniques and machine learning models. 
+                            In my research endeavors, I am engaged in addressing the intricate challenges arising from the integration of extensive renewable energy sources into power systems, as well as developing a prognostic health monitoring system specifically tailored for hydrogen fuel cells.
+                        </p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">03+</span>
+                                <span class="about__info-name">courses' <br> TA</span>
+                            </div>         
+                            <div>
+                                <span class="about__info-title">04+</span>
+                                <span class="about__info-name">Years <br> Research</span>
+                            </div>    
+                            <div>
+                                <span class="about__info-title">03+</span>
+                                <span class="about__info-name">Industry <br> project</span>
+                            </div>    
+                        </div>
+
+                        <div class="about__buttons">
+                            <!--==================== Change your CV ====================-->
+                            <a download="" href="assets/pdf/Zhenyu_Zhao_CV.pdf" class="button button--flex">
+                                Download CV <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical experience and skills</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--=============== SKILLS 1 ===============-->
+                        <div class="skills__content">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills_title">Research experience</h1>
+                                    <span class="skills__subtitle">MOre than 4 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Collaborate with PJM Interconnection</h3>
+                                        <!-- <span class="skills number">90%</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Collaborate with Plug Power</h3>
+                                        <!-- <span class="skills number">90%</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Intern at PJM Interconnection</h3>
+                                        <!-- <span class="skills number">90%</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+<!-- 
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">react</h3>
+                                        <span class="skills number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>  
+                        <!--=============== SKILLS 2 ===============-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Data analysis</h1>
+                                    <span class="skills__subtitle">Multiple reseearch projects</span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Data cleaning</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Data warehousing</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Quantitative analysis</h3>
+
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Topological Data Analysis</h3>
+       
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!--=============== SKILLS 3 ===============-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cloud-database-tree skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills_titles">Machine Learning</h1>
+                                    <span class="skills__subtitle">Multiple research projects</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">LSTM</h3>
+                                        <!-- <span class="skills number">90%</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Transformer</h3>
+                                        <!-- <span class="skills number">90%</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Factorization Machine</h3>
+                                        <!-- <span class="skills number">90%</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Linear Regression</h3>
+                                        <!-- <span class="skills number">90%</span> -->
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+
+             <!--==================== QUALIFICATION ====================-->
+             <section class="qualification section" id="Experience">
+                <h2 class="section__title">Experience</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>                      
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--=============== QUALIFICATION CONTENT 1 ===============-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--=============== QUALIFICATION 1 ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Electrical Engineering</h3>
+                                    <span class="qualification__subtitle">Temple University, PhD</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021 Jan - present
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--=============== QUALIFICATION 2 ===============-->
+                            <div class="qualification__data">                                 
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                          
+                                <div>
+                                    <h3 class="qualification__title">Computer and Information Science</h3>
+                                    <span class="qualification__subtitle">Temple University, PhD</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021 Jan - 2022 Jan, Transfered to ECE
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!--=============== QUALIFICATION 3 ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Electrical Engineering</h3>
+                                    <span class="qualification__subtitle">George Washington University, Master</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018 Aug - 2020 May
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+    
+                            <!--=============== QUALIFICATION 4 ===============-->
+                            <div class="qualification__data">
+                                <div></div>
+                                     
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Automation</h3>
+                                    <span class="qualification__subtitle">Wuhan University of Technology, Bachelor</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2014 Aug -2018 May
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--=============== QUALIFICATION CONTENT 2 ===============-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--=============== QUALIFICATION 1 ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Intern</h3>
+                                    <span class="qualification__subtitle">PJM Interconnection</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023 June - Present (part-time since 2023 Aug)
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--=============== QUALIFICATION 2 ===============-->
+                            <div class="qualification__data">
+                                <div></div>
+    
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Research Assistant</h3>
+                                    <span class="qualification__subtitle">Temple University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021 Jan - Present
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Teaching Assistant</h3>
+                                    <span class="qualification__subtitle">Temple University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021 Jan -2022 Jan
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Publication and services</h2>
+                <span class="section__subtitle">Academic achievement</span>
+
+                <div class="services__container container grid">
+                    <!--=============== SERVICES 1 ===============-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-meeting-board"></i>
+                            <h3 class="services__title">Conference <br> Paper</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View More 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Conference Paper</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        Z. Zhao, D. Moscovitz, L. Du and X. Fan, "Factorization Machine Learning for Disaggregation of Transmission Load Profiles with High Penetration of Behind-the-Meter Solar"
+                                        , IEEE Energy Conversion Congres & Expo. (ECCE 2023), Nashville, TN, October 29- Nov 2, 2023 
+                                    </li>
+                                    <li class="services__modal-service">
+                                        Z. Zhao, Y. Chen, and L. Du, ”Modeling and Classification of EV Charging Profiles Utilizing Topological Data
+                                        Analysis”, IEEE Transportation Electrification Conf. & Expo, (ITEC 2023), Detroit, MI, June 19-21, 2023
+                                    </li>
+                                    <li class="services__modal-service">
+                                        Z. Zhao, D. Moscovitz, S. Wang, X. Fan, and L. Du, ”Semi-Supervised Disaggregation of Daily Load Profiles at
+                                        Transmission Buses with Significant Behind-the-Meter Solar Generations”, IEEE Energy Conversion Congress
+                                        & Expo. (ECCE 2022), Detroit, MI, October 9-13, 2022
+                                    </li>
+                                    <li class="services__modal-service">
+                                        C. Jiang, C. Fu, Z. Zhao and X. Du, “Effective Anomaly Detection in Smart Home by integrating Event
+                                            Time Intervals”, The 13th International Conference on Emerging Ubiquitous Systems and Pervasive Networks
+                                            (EUSPN 2022), Leuven, Belgium, October 26-28. 2022
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--=============== SERVICES 2 ===============-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-book-open"></i>
+                            <h3 class="services__title">Transaction <br> Paper</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Transaction Paper</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                       
+                                        S. K. Ziyabari, Z. Zhao, L. Du, and S. Biswas, ”Multi-Branch ResNet-Transformer for Short-term Spatio-
+                                            Temporal Solar Irradiance Forecasting”, IEEE Transactions on Industry Applications, in press, 2023
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--=============== SERVICES 3 ===============-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-edit-alt"></i>
+                            <h3 class="services__title">Paper <br> Reviewer</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Reviewer for</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                  
+                                        IET Smart Grid
+                                        
+                                    </li>
+                                    <li class="services__modal-service">
+                                        
+                                        IEEE Transactions on Transportation Electrification,
+                                    </li>
+                                    <li class="services__modal-service">
+                                        
+                                        IEEE VPPC
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="news">
+                <h2 class="section__title">News</h2>
+                <span class="section__subtitle">Recent work and life</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--=============== PORTFOLIO 1 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/intern.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">End & Start</h3>
+                                <p class="portfolio__description">After a meaningful summer internship, I will work at PJM as a parttime intern during 23 Fall. </p>
+                                <!-- <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> -->
+                            </div>
+                        </div>
+    
+                        <!--=============== PORTFOLIO 2 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/itec.png" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Attend ITEC 2023</h3>
+                                <p class="portfolio__description">As the recipient of IEEE Power Electronics Society (PELS) Student Travel Award, 2023, I attend ITEC 2023
+                                    to present my paper and serve as a volunteer. </p>
+
+                            </div>
+                        </div>
+    
+                        <!--=============== PORTFOLIO 3 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/logo.PNG" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Miltestone of PhD life</h3>
+                                <p class="portfolio__description">I passed my preliminary test in Dec 2022.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+
+ 
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Open for work</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <!-- <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">999-777-666</span>
+                            </div>
+                        </div> -->
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">z.zhao@temple.edu</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">1947 N 12th st, 717, Philadelphia, PA, 19123</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Company</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+                        
+                        <div>
+                            <a href="mailto:z.zhao@temple.edu"><button class="button flex send-button">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Zhenyu</h1>
+                        <span class="footer__subtitle">Researcher & more</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#Home" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#Experience" class="footer__link">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/zzhao-temple/"  target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=-1hE2IoAAAAJ&hl=en&oi=ao/" target="_blank" class="footer__social">
+                            <i class="uil uil-google"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrollup" id="scroll-top">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
