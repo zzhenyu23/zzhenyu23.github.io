@@ -396,8 +396,8 @@ img {
   justify-self: center;
   align-self: center;
 }
-.colored-link {color: blue; /* Change the color as desired */
-}
+a {color: #007bff; /* Replace with your desired color */
+  }
 
 .about__description {
   text-align: center;
