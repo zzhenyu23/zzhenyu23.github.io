@@ -176,6 +176,8 @@ img {
   align-items: center;
 }
 
+
+
 .nav__logo, .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -727,17 +729,11 @@ a {color: #007bff; /* Replace with your desired color */
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
-  overflow: initial;
+  overflow: initial; /* Ensure content is not clipped */
 }
 
 .portfolio__content {
-  padding: 0 1.5rem;
-}
-
-.portfolio__img {
-  width: 265px;
-  border-radius: .5rem;
-  justify-self: center;
+  padding: 0 1.5rem; /* Add padding to the content */
 }
 
 .portfolio__title {
@@ -774,6 +770,7 @@ a {color: #007bff; /* Replace with your desired color */
 .swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: -2.5rem;
 }
+
 
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
