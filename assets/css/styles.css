@@ -1267,3 +1267,11 @@ a {color: #007bff; /* Replace with your desired color */
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.wide-container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
