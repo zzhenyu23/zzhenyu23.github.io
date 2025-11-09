@@ -47,6 +47,7 @@
   --z-modal: 1000;
 }
 
+
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3rem;
@@ -101,7 +102,7 @@ html {
 }
 
 body {
-  margin: 0 0 var(--header-height) 0;
+  margin: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -148,7 +149,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
+  max-width: 888px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
